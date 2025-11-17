@@ -1,0 +1,143 @@
+{
+  "header": {
+    "ministryName": "ក្រសួងអប់រំ យុវជន និងកីឡា",
+    "registerAsLeader": "ចុះឈ្មោះជាប្រធាន",
+    "registerAsPlayer": "ចុះឈ្មោះជាអ្នកលេង"
+  },
+  "registrationForm": {
+    "title": "សំណុំបែបបទចុះឈ្មោះ",
+    "description": "សូមបំពេញសំណុំបែបបទខាងក្រោមដើម្បីចុះឈ្មោះចូលរួមកម្មវិធីកីឡា និងព្រឹត្តិការណ៍។"
+  },
+  "personalInfo": {
+    "title": "ព័ត៌មានផ្ទាល់ខ្លួន",
+    "firstName": "នាមខ្លួន",
+    "lastName": "នាមត្រកូល",
+    "dateOfBirth": "ថ្ងៃខែឆ្នាំកំណើត",
+    "gender": "ភេទ",
+    "male": "ប្រុស",
+    "female": "ស្រី",
+    "other": "ផ្សេងទៀត",
+    "phoneNumber": "លេខទូរស័ព្ទ",
+    "email": "អាសយដ្ឋានអ៊ីមែល"
+  },
+  "sportCategory": {
+    "title": "ប្រភេទកីឡា",
+    "selectCategory": "ជ្រើសរើសប្រភេទកីឡា",
+    "traditional": "កីឡា និងល្បែងប្រពៃណីខ្មែរ",
+    "ball": "ល្បែងបាល់",
+    "martial": "វិច្ឆិកា និងកីឡាប្រយុទ្ធ",
+    "athletics": "វិច្ឆិកា និងកីឡាខាងក្រៅ",
+    "indoor": "កីឡាខាងក្នុង និងកីឡាកម្សាន្ត"
+  },
+  "locationEvent": {
+    "title": "ទីតាំង និងព្រឹត្តិការណ៍",
+    "province": "ខេត្ត",
+    "selectProvince": "ជ្រើសរើសខេត្តរបស់អ្នក",
+    "department": "នាយកដ្ឋាន",
+    "selectDepartment": "ជ្រើសរើសនាយកដ្ឋានរបស់អ្នក",
+    "eventType": "ប្រភេទព្រឹត្តិការណ៍",
+    "selectEventType": "ជ្រើសរើសប្រភេទព្រឹត្តិការណ៍",
+    "position": "តួនាទី",
+    "selectPosition": "ជ្រើសរើសតួនាទីរបស់អ្នក"
+  },
+  "photoUpload": {
+    "title": "ផ្ទុករូបថត",
+    "uploadPhoto": "ផ្ទុករូបថត",
+    "dragDrop": "អូស និងទម្លាក់រូបថតរបស់អ្នកនៅទីនេះ ឬចុចដើម្បីជ្រើសរើស",
+    "fileTypes": "ទ្រង់ទ្រាយដែលគាំទ្រ: JPG, PNG, GIF (អតិបរមា 5MB)"
+  },
+  "formActions": {
+    "submit": "ដាក់ស្នើការចុះឈ្មោះ",
+    "reset": "កំណត់សំណុំបែបបទឡើងវិញ",
+    "submitting": "កំពុងដាក់ស្នើ..."
+  },
+  "common": {
+    "required": "ចន្លោះនេះត្រូវតែបំពេញ",
+    "invalidEmail": "សូមបញ្ចូលអាសយដ្ឋានអ៊ីមែលត្រឹមត្រូវ",
+    "invalidPhone": "សូមបញ្ចូលលេខទូរស័ព្ទត្រឹមត្រូវ"
+  },
+  "provinces": {
+    "Phnom Penh": "ភ្នំពេញ",
+    "Banteay Meanchey": "បន្ទាយមានជ័យ",
+    "Battambang": "បាត់ដំបង",
+    "Kampong Cham": "កំពង់ចាម",
+    "Kampong Chhnang": "កំពង់ឆ្នាំង",
+    "Kampong Speu": "កំពង់ស្ពឺ",
+    "Kampong Thom": "កំពង់ធំ",
+    "Kampot": "កំពត",
+    "Kandal": "កណ្ដាល",
+    "Kep": "កែប",
+    "Koh Kong": "កោះកុង",
+    "Kratie": "ក្រចេះ",
+    "Mondulkiri": "មណ្ឌលគិរី",
+    "Oddar Meanchey": "ឧត្ដរមានជ័យ",
+    "Pailin": "ប៉ៃលិន",
+    "Preah Vihear": "ព្រះវិហារ",
+    "Prey Veng": "ព្រៃវែង",
+    "Pursat": "ពោធិ៍សាត់",
+    "Ratanakiri": "រតនគិរី",
+    "Siem Reap": "សៀមរាប",
+    "Preah Sihanouk": "ព្រះសីហនុ",
+    "Stung Treng": "ស្ទឹងត្រែង",
+    "Svay Rieng": "ស្វាយរៀង",
+    "Takeo": "តាកែវ",
+    "Tbong Khmum": "ត្បូងឃ្មុំ"
+  },
+  "departments": {
+    "Department 1": "នាយកដ្ឋានទី 1",
+    "Department 2": "នាយកដ្ឋានទី 2",
+    "Department 3": "នាយកដ្ឋានទី 3"
+  },
+  "eventTypes": {
+    "Event Type 1": "ប្រភេទព្រឹត្តិការណ៍ទី 1",
+    "Event Type 2": "ប្រភេទព្រឹត្តិការណ៍ទី 2",
+    "Event Type 3": "ប្រភេទព្រឹត្តិការណ៍ទី 3"
+  },
+  "positions": {
+    "player": "អ្នកលេង",
+    "coach": "គ្រូបង្វឹក",
+    "manager": "អ្នកគ្រប់គ្រង",
+    "referee": "អ្នកស្ម័គ្រចាប់"
+  },
+  "sports": {
+    "chol-chhoung": "ចោលឈូង",
+    "leak-kanseng": "លីកកន្សែង",
+    "teanh-prot": "ទាញព្រទ",
+    "bos-angkunh": "បុស្សអង្គុញ",
+    "bay-khom": "បៃឃុំ",
+    "ouk-chatrang": "អ៊ូកចត្រង្គ (អុកខ្មែរ)",
+    "klah-klok": "ក្លះក្លុក",
+    "football": "បាល់ទាត់",
+    "volleyball": "បាល់ទះ",
+    "basketball": "បាល់បោះ",
+    "petanque": "បេឡាង់",
+    "sepak-takraw": "សេប៉ាតាក្រៅ",
+    "table-tennis-ball": "តុបាល់លើតុ",
+    "handball": "បាល់ដៃ",
+    "bokator": "បុក្កតរ",
+    "kun-khmer": "គុនខ្មែរ",
+    "taekwondo": "តែក្វុនដូ",
+    "karate": "ការ៉ាត់",
+    "judo": "ជូដូ",
+    "wrestling": "ប្រដាល់",
+    "running": "រត់",
+    "cycling": "ប៉េដាល់",
+    "swimming": "ហែលទឹក",
+    "badminton-outdoor": "បាត់មីនតុន (ខាងក្រៅ)",
+    "hiking": "ដើរលំហែ",
+    "archery": "បាញ់ព្រួញ",
+    "boat-racing": "ប្រណាំងទូក",
+    "tennis": "តេនីស",
+    "golf": "កូល្ហ្វ",
+    "badminton-indoor": "បាត់មីនតុន (ខាងក្នុង)",
+    "table-tennis-indoor": "តុបាល់លើតុ",
+    "bowling": "ប៊ូលីង",
+    "chess": "អុក",
+    "billiards": "ប៊ីល្លាត",
+    "e-sports": "កីឡាអេឡិចត្រូនិច",
+    "gym-fitness": "កីឡាសម្ដែង",
+    "yoga": "យូហ្គា",
+    "dance-fitness": "រាំសម្ដែង",
+    "indoor-climbing": "ឡើងភ្នំខាងក្នុង"
+  }
+}

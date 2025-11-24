@@ -23,12 +23,10 @@ export function SportCategorySection({ formData, handleChange, errors }: SportCa
         description="Select a sport category"
       />
 
-      {/* Category Buttons */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
         {SPORT_CATEGORIES.map((category) => (
           <CategoryButton
             key={category.id}
-            // icon={category.icon}
             name={category.name}
             isSelected={formData.typeOfSport === category.name}
             onClick={() => {
@@ -39,7 +37,6 @@ export function SportCategorySection({ formData, handleChange, errors }: SportCa
         ))}
       </div>
 
-      {/* Sport Selection Dropdown */}
       <FormSelect
         label="Select Sport"
         value={formData.selectedSport || ''}

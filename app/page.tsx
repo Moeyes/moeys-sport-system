@@ -1,22 +1,34 @@
-'use client'
+//page.tsx
+"use client";
 
-import { useState } from 'react'
-import Header from '@/components/header'
-import RegistrationForm from '@/components/registrationForm'
-import { RegistrationType } from '@/types'
+import { useState } from "react";
+import Header from "@/components/header";
+import RegistrationForm from "@/components/registrationForm";
+import { RegistrationType } from "@/types";
+import TwoSideLayout from "@/components/layout/TwoSideLayout";
+
 
 export default function Home() {
-  const [registrationType, setRegistrationType] = useState<RegistrationType>('player')
+  const [registrationType, setRegistrationType] =
+    useState<RegistrationType>("player");
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen">
       <Header
         onRegistrationTypeChange={setRegistrationType}
         currentType={registrationType}
+        className="sticky top-0 z-50"
       />
-      <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-        <RegistrationForm registrationType={registrationType} />
-      </main>
+
+      <div className="flex-1">
+        <TwoSideLayout
+          right={
+            <div className="w-full min-h-screen bg-gray-50">
+              <RegistrationForm registrationType={registrationType} />
+            </div>
+          }
+        />
+      </div>
     </div>
-  )
+  );
 }

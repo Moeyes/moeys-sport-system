@@ -22,24 +22,24 @@ export function LocationEventSection({ formData, handleChange, errors }: Locatio
           value={formData.province || ''}
           onChange={(value) => {
             handleChange('province', value)
-            if (value) handleChange('department', null) // Clear department when province is selected
+            if (value) handleChange('department', null) 
           }}
           options={PROVINCES}
           required
           error={errors.province}
-          disabled={!!formData.department} // Disable if department is selected
+          disabled={!!formData.department} 
         />
         <FormSelect
           label="Department"
           value={formData.department || ''}
           onChange={(value) => {
             handleChange('department', value)
-            if (value) handleChange('province', null) // Clear province when department is selected
+            if (value) handleChange('province', null) 
           }}
           options={DEPARTMENTS}
           required
           error={errors.department}
-          disabled={!!formData.province} // Disable if province is selected
+          disabled={!!formData.province} 
         />
         <FormSelect
           label="Event Type"

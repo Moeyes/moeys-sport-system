@@ -5,20 +5,22 @@ import { BurgerMenu } from '@/components/common/burgerMenu'
 import { RegistrationType } from '@/types'
 import Image from 'next/image';
 import moeysLogo from "@/assets/moeysLogo.png";
+import { cn } from '@/lib/utils'; //sticky header 
 
 
 interface HeaderProps {
   onRegistrationTypeChange: (type: RegistrationType) => void
   currentType: RegistrationType
+  className?: string
 }
 
-export default function Header({ onRegistrationTypeChange, currentType }: HeaderProps) {
+export default function Header({ onRegistrationTypeChange, currentType, className }: HeaderProps) {
   return (
-    <header className="border-b border-border bg-card shadow-sm">
+    <header className={cn("border-b border-border bg-card shadow-sm", className)}>
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full flex items-center justify-center">
               <Image 
                 src={moeysLogo}
                 alt="moeys logo"
@@ -32,7 +34,7 @@ export default function Header({ onRegistrationTypeChange, currentType }: Header
             </div>
           </div>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Size */}
           <div className="hidden md:flex gap-3">
             <HeaderButton
               variant={currentType === 'leader' ? 'primary' : 'outline'}
@@ -48,7 +50,7 @@ export default function Header({ onRegistrationTypeChange, currentType }: Header
             </HeaderButton>
           </div>
 
-          {/* Mobile Navigation */}
+          {/* Mobile Size */}
           <BurgerMenu onRegistrationTypeChange={onRegistrationTypeChange} currentType={currentType} />
         </div>
       </div>
